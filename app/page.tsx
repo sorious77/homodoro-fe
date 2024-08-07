@@ -1,3 +1,7 @@
+import { Holendar } from '@/components/calendar';
+
 export default function Home() {
-  return <main>Homodoro</main>;
+  return <main>
+    <Holendar />
+  </main>;
 }
